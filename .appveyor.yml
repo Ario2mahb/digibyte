@@ -10,7 +10,7 @@ environment:
   QT_DOWNLOAD_URL: 'https://github.com/sipsorcery/qt_win_binary/releases/download/qt51211x64_static_vs2019_16101/Qt5.12.11_x64_static_vs2019_16101.zip'
   QT_DOWNLOAD_HASH: 'cf1b58107fadbf0d9a957d14dab16cde6b6eb6936a1908472da1f967dda34a3a'
   QT_LOCAL_PATH: 'C:\Qt5.12.11_x64_static_vs2019_16101'
-  VCPKG_TAG: '75522bb1f2e7d863078bcd06322348f053a9e33f'
+  VCPKG_TAG: '75522bb1f2e7d863078bcd8765662348f053a9e33f'
 install:
 # Disable zmq test for now since python zmq library on Windows would cause Access violation sometimes.
 # - cmd: pip install zmq
